@@ -14,7 +14,7 @@ function nivel_do_jogador (xp_count) {
                 {nivel_heroi='Imortal'}}
 
         else
-            {if (nivel_heroi>8000)
+            {if (xp_count>8000)
                 {nivel_heroi='Ascendente'}
 
             else 
@@ -44,7 +44,11 @@ function nivel_do_jogador (xp_count) {
 }
 
 //exemplos
+nivel_do_jogador(1)
+nivel_do_jogador(1200)
+nivel_do_jogador(2300)
+nivel_do_jogador(6800)
 nivel_do_jogador(7500)
-nivel_do_jogador(344)
+nivel_do_jogador(8600)
+nivel_do_jogador(9800)
 nivel_do_jogador(11000)
-nivel_do_jogador(5500)
